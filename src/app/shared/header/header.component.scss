@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1D1B20;
+  color: #ffffff;
+  padding: 1rem 13.75rem;
+
+  .container__btn {
+    display: flex;
+    gap: 13px;
+
+    .btn {
+      background-color: transparent;
+      border: 0;
+      color: #fff;
+    }
+
+    .cadastro-container__btn {
+      background-color: #6750A4;
+      padding: 0.625rem 1.5rem;
+      border-radius: 5px;
+    }
+
+    .login-container__btn {
+      color: #6750A4;
+      border: 1px #cecece solid;
+      border-radius: 5px;
+      padding: 0.625rem 1.5rem;
+    }
+  }
+}
